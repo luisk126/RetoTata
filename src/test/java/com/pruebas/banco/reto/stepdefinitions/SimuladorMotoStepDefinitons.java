@@ -73,11 +73,4 @@ public class SimuladorMotoStepDefinitons {
 
     }
 
-    @Y("cierra el navegador")
-    public void cierraElNavegador() {
-
-    }
-
-
-
 }

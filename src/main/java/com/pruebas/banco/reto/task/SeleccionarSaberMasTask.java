@@ -8,18 +8,19 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.MoveMouse;
 import net.serenitybdd.screenplay.actions.Scroll;
 
+
 public class SeleccionarSaberMasTask implements Task {
 
 
     @Override
     public <T extends Actor> void performAs(T actor) {
+
         if (false)
         {
             actor.attemptsTo(MoveMouse.to(PersonasPage.MODAL_AGUA_CERRAR),
                     Click.on(PersonasPage.MODAL_AGUA_CERRAR)
             );
         }
-        else{}
 
         actor.attemptsTo(
                 Scroll.to(PersonasPage.BTN_SABER_MAS),
